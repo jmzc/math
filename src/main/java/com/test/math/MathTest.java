@@ -10,7 +10,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- *
+ * Math test class
  * @author jmzc
  */
 public class MathTest {
