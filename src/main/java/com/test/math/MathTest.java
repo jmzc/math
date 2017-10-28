@@ -15,7 +15,7 @@ import java.util.Map;
  */
 public class MathTest {
     
-    private static final Map<Integer,Integer> cache = new HashMap();
+    private static final Map<Integer,Integer> CACHE = new HashMap();
     /**
      * Return fibonnaci value 
      * @param n
@@ -37,9 +37,9 @@ public class MathTest {
             }  
             default: {
                  
-                 Integer r = cache.putIfAbsent(n,fibonacci1(n-2) + fibonacci1(n-1));
+                 Integer r = CACHE.putIfAbsent(n,fibonacci1(n-2) + fibonacci1(n-1));
 
-                 return ( r != null )? r: cache.get(n);
+                 return ( r != null )? r: CACHE.get(n);
             }
                
         }
