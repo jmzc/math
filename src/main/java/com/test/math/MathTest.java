@@ -24,7 +24,7 @@ public class MathTest {
      * 
      * 0 1 1 2 3 5 8 
      */
-    public static int fibonacci1(int n) throws InvalidRangeException{
+    public static int fibonacci3(int n) throws InvalidRangeException{
         
         if ( n <= 0)
             throw new InvalidRangeException("Invalid range: must be > 0");
