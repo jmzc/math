@@ -46,7 +46,7 @@ public class MathJUnitTest {
     @Test(expected = InvalidRangeException.class)
     public void test1() throws Exception{
     
-        MathTest.fibonacci1(-1);
+        MathTest.fibonacci100(-1);
         
         
     
@@ -55,7 +55,7 @@ public class MathJUnitTest {
     @Test
     public void test2() throws Exception{
     
-        int n = MathTest.fibonacci1(7);
+        int n = MathTest.fibonacci100(7);
         Assert.assertEquals(8, n);
         
         
