@@ -24,7 +24,7 @@ public class MathTest {
      * 
      * 0 1 1 2 3 5 8 
      */
-    public static int fibonacci1(int n) throws InvalidRangeException{
+    public static int fibonacci100(int n) throws InvalidRangeException{
         
         if ( n <= 0)
             throw new InvalidRangeException("Invalid range: must be > 0");
@@ -37,7 +37,7 @@ public class MathTest {
             }  
             default: {
                  
-                 Integer r = CACHE.putIfAbsent(n,fibonacci1(n-2) + fibonacci1(n-1));
+                 Integer r = CACHE.putIfAbsent(n,fibonacci100(n-2) + fibonacci100(n-1));
 
                  return ( r != null )? r: CACHE.get(n);
             }
