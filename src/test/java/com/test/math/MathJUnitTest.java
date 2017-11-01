@@ -16,7 +16,7 @@ import org.junit.Test;
 
 
 /**
- *
+ *  test class 
  * @author jmzc
  */
 public class MathJUnitTest {
