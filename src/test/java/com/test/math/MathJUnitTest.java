@@ -16,7 +16,7 @@ import org.junit.Test;
 
 
 /**
- * UT 
+ * UT class 
  * @author jmzc
  */
 public class MathJUnitTest {
